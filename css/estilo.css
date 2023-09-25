@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Poppins", Light 300;
+}
+
+.navbar-brand img {
+  width: 70%;
+}
+#nomePessoa {
+  font-size: 15pt;
+  color: #2cf040;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 4%;
+  font-weight: bold;
+}
+
+#iconPessoa {
+  background-color: #333;
+  border-radius: 50px;
+  width: 8.5%;
+  height: 8.5%;
+  margin-top: 1%;
+}
+
+.navPerfil {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.selecaoElementos {
+  background-color: #171717;
+  width: 170px;
+  height: 1080px;
+  margin-left: -1%;
+  color: white;
+}
+
+body {
+  background: linear-gradient(
+      180deg,
+      rgba(5, 19, 27, 0.63),
+      rgba(5, 19, 27, 0.63)
+    ),
+    url(../assets/shape-background.svg);
+  background-size: 100%;
+  margin: 0;
+}
+
+.selecaoElementos h2 {
+  font-size: 20pt;
+}
